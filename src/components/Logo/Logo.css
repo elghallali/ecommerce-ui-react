@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&display=swap');
+.Logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.85);
+    position: relative;
+    height: 200px;
+}
+
+.Logo div:nth-of-type(1) {
+    position: absolute;
+    font-size: 300%;
+    font-weight: bold;
+    color:lime;
+    letter-spacing: 0.2rem;
+    font-family: 'Fira Code', monospace;
+}
+.Logo div:nth-of-type(2) {
+    position: absolute;
+    top: 40px;
+    color:white;
+}
+.Logo div:nth-of-type(2) span:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 500%;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+.Logo div:nth-of-type(2) span:nth-of-type(2) {
+    font-weight: bold;
+    font-size: 500%;
+    text-transform: capitalize;
+}
+
+.Logo div:nth-of-type(3){
+    font-weight: bold;
+    font-size: 300%;
+    letter-spacing: 0.1rem;
+} 
+.Logo div:nth-of-type(3) {
+    position: absolute;
+    top: 125px;
+    text-transform:capitalize;
+    color:forestgreen;
+    
+}
+
